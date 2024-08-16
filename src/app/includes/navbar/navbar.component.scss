@@ -1,0 +1,16 @@
+.navbar {
+    width: 80vw;
+    height: 80px;
+    background-color: #788F8F;
+    
+    mat-icon {
+        padding-left: 30px;
+        color: #ddd;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80px;
+        cursor: pointer;
+    }
+}
