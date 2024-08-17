@@ -2,7 +2,7 @@
     width: 20vw;
     height: 100vh;
     background-color: #2f4f4f;
-    transition: ease-out 400ms;
+    transition: ease-out 200ms;
 
     .side-items {
         display: flex;
@@ -14,7 +14,7 @@
     width: 100px;
     height: 100vh;
     background-color: #2f4f4f;
-    transition: ease-in 400ms;
+    transition: ease-in 200ms;
 
     .side-items {
         display: flex;
@@ -25,5 +25,5 @@
 
 app-nav-buttons:hover {
     background-color: #162727;
-    cursor: pointer;;
+    cursor: pointer;
 }

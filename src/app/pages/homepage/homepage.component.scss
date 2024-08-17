@@ -8,5 +8,21 @@ header {
         display: flex;
         flex: 1;
         flex-direction: column;
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 83.2vh;
+            gap: 50px;
+
+            mat-card {
+                background-color: inherit;
+                border: 2px solid #bdbdbd;
+                box-shadow: 3px 6px 5px -black;
+            }
+        }
     }
 }
+
+

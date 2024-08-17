@@ -11,7 +11,8 @@ import { NavButtonsComponent } from '../nav-buttons/nav-buttons.component';
     NavButtonsComponent
   ],
   templateUrl: './sidebar.component.html',
-  styleUrl: './sidebar.component.scss'
+  styleUrl: './sidebar.component.scss',
+  
 })
 export class SidebarComponent implements OnInit{
   public isSizeActive: boolean = false;

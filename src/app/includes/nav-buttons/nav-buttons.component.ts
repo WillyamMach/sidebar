@@ -9,8 +9,9 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [MatIconModule, MatListModule, CommonModule],
   templateUrl: './nav-buttons.component.html',
-  styleUrl: './nav-buttons.component.scss'
+  styleUrl: './nav-buttons.component.scss',
 })
+
 export class NavButtonsComponent implements OnInit{
   showMessage: boolean = false;
   @Input() icon: string = ''
