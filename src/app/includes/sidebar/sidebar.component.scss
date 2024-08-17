@@ -3,10 +3,27 @@
     height: 100vh;
     background-color: #2f4f4f;
     transition: ease-out 400ms;
+
+    .side-items {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
 }
 .sidebar-closed {
     width: 100px;
     height: 100vh;
     background-color: #2f4f4f;
     transition: ease-in 400ms;
+
+    .side-items {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+app-nav-buttons:hover {
+    background-color: #162727;
+    cursor: pointer;;
 }
