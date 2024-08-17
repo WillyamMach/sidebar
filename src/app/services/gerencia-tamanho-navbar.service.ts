@@ -6,7 +6,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 })
 export class GerenciaTamanhoNavbarService {
   private manageResize = new BehaviorSubject<boolean>(false)
-  private isResizeActive = this.manageResize.asObservable()
+  public isResizeActive = this.manageResize.asObservable()
   constructor() { }
 
   changeWidth() {

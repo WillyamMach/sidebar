@@ -7,10 +7,10 @@ import { NavbarComponent } from '../../includes/navbar/navbar.component';
   standalone: true,
   imports: [
     SidebarComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.scss'
+  styleUrl: './homepage.component.scss',
 })
 export class HomepageComponent {
 
