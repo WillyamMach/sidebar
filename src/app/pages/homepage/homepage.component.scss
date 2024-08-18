@@ -9,18 +9,30 @@ header {
         flex: 1;
         flex-direction: column;
 
-        .cards {
+        .main-content {
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 83.2vh;
-            gap: 50px;
+            min-height: 85.3vh;
 
-            mat-card {
-                background-color: inherit;
-                border: 2px solid #bdbdbd;
-                box-shadow: 3px 6px 5px -black;
+            .cards {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+                flex-direction: row;
+                width: 50vw;
+                padding: 80px;
+                background-color: #f1f1f1;
+                border: 1px solid #ddd;
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+                mat-card {
+                    background-color:#f7f7f7;
+                    border: 2px solid #e9e9e9;
+                    box-shadow: 3px 6px 5px #ddd;
+                }
             }
+
         }
     }
 }
