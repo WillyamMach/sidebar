@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex: 1;
+    
+    .container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 85.3vh;
+
+        }
+    }
+}
+
+
