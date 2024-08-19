@@ -1,0 +1,20 @@
+<table mat-table [dataSource]="dados">
+    <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let test">{{ test.id }}</td>
+    </ng-container>
+    <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let test">{{ test.name }}</td>
+    </ng-container>
+    <ng-container matColumnDef="value">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let test">{{ test.value }}</td>
+    </ng-container>
+    <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let test">{{ test.date }}</td>
+    </ng-container>
+    <tr mat-header-row *matHeaderCellDef="colunasTabela"></tr>
+    <tr mat-row *matRowDef="let row; columns: colunasTabela"></tr>
+</table>

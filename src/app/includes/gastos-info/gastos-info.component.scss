@@ -2,11 +2,7 @@
     border: 1px solid black;
     width: 80vw;
     
-    tbody {
-        td {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    tr, td {
+        background-color: white;
     }
 }

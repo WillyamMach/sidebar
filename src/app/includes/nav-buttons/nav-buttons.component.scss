@@ -23,6 +23,10 @@ a {
             }
         }
 
+        mat-list-item:hover {
+            cursor: pointer;
+        }
+
         .icon-display {
             display: flex;
             justify-content: center;
