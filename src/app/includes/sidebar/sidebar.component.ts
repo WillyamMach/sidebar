@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { GerenciaTamanhoNavbarService } from '../../services/gerencia-tamanho-navbar.service';
 import { CommonModule } from '@angular/common';
 import { NavButtonsComponent } from '../nav-buttons/nav-buttons.component';
+import { GerenciaTamanhoNavbarService } from '../../core/services/gerencia-tamanho-navbar.service';
 
 @Component({
   selector: 'app-sidebar',

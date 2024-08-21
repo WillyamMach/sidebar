@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon'; 
-import { GerenciaTamanhoNavbarService } from '../../services/gerencia-tamanho-navbar.service';
-
+import { GerenciaTamanhoNavbarService } from '../../core/services/gerencia-tamanho-navbar.service';
 
 @Component({
   selector: 'app-navbar',

@@ -11,11 +11,10 @@ import { GastosInfoComponent } from '../../includes/gastos-info/gastos-info.comp
     SidebarComponent,
     NavbarComponent,
     FooterComponent,
-    GastosInfoComponent
+    GastosInfoComponent,
   ],
   templateUrl: './gastos.component.html',
   styleUrl: './gastos.component.scss'
 })
 export class GastosComponent {
-
 }
